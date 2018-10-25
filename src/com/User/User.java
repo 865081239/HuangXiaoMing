@@ -10,6 +10,10 @@ public class User {
 	private String name;
 	@JSONField(format="yyyy-MM-dd")
 	private Date date;
+	
+	public void test(){
+		System.out.println("看区别");
+	}
 	public Date getDate() {
 		return date;
 	}
